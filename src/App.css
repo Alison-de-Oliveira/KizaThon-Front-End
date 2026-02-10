@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'HyliaSerif';
-  src: local('HyliaSerif'), url(../src/fonts/HyliaSerifBeta-Regular.otf) format('opentype');
+  src: local('HyliaSerif'), url(../src/Components/fonts/HyliaSerifBeta-Regular.otf) format('opentype');
   font-weight: normal;
   font-style: normal;
 }

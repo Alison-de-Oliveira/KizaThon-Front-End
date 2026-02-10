@@ -1,2 +1,21 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'HyliaSerif';
+  src: local('HyliaSerif'), url(../src/Components/fonts/HyliaSerifBeta-Regular.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.zelda-text {
+  font-family: 'HyliaSerif' , sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/src/Components/img/Background.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
