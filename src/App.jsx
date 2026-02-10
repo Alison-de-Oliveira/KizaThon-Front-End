@@ -15,8 +15,8 @@ function App() {
       <NavBar />
 
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/category" element={<Category />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/category/:filter" element={<Category />} />
       </Routes>
     </Router>
   );
