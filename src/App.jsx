@@ -1,13 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
-import NavBar from "./Layout/NavBar";
+import NavBar from "./Components/NavBar";
 
 {
   /*Páginas*/
 }
 import Home from "./Pages/Home";
 import Category from "./Pages/Category";
+import CategoryFilter from "./Pages/CategoryFilter";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/category/:filter" element={<Category />} />
+        <Route path="/category" element={<Category />} />
+        <Route path="/category/:filter" element={<CategoryFilter />} />
       </Routes>
     </Router>
   );
