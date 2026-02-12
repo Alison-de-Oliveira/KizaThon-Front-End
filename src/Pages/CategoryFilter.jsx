@@ -4,7 +4,6 @@ import Card from "../Components/Card";
 
 function CategoryFilter() {
   let { filter } = useParams();
-  console.log(filter);
 
   const [category, setCategory] = useState([]);
   const getData = async () => {
@@ -21,7 +20,7 @@ function CategoryFilter() {
   }, [filter]);
 
   return (
-    <div className="grid grid-cols-5 gap-4 p-4 justify-items-center ">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full max-w-screen-7xl mx-auto gap-4 p-4 ">
       {category.length &&
         category.map((item) => {
           return <Card item={item} />;

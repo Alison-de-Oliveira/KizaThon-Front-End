@@ -1,6 +1,15 @@
 import { useEffect, useState } from "react";
 import Card from "../Components/Card";
 
+{
+  /*  IMAGENS  */
+}
+import iconArmas from "../Components/img/icon-armas.png";
+import iconCriaturas from "../Components/img/icon-criaturas.png";
+import iconInimigos from "../Components/img/icon-inimigos.png";
+import iconMateriais from "../Components/img/icon-materiais.png";
+import iconTesouros from "../Components/img/icon-tesouros.png";
+
 function Category() {
   const [category, setCategory] = useState([]);
   const getData = async () => {
@@ -18,8 +27,34 @@ function Category() {
 
   return (
     <div>
-      <div></div>
-      <div className="grid grid-cols-5 gap-4 p-4 justify-items-center ">
+      <div className=" flex justify-center items-center gap-4 md:gap-16 w-full max-w-screen-7xl mx-auto ">
+        <img
+          src={iconArmas}
+          alt="Icone Armas"
+          className=" h-8 md:h-12 hover:scale-110 transition-transform"
+        ></img>
+        <img
+          src={iconCriaturas}
+          alt="Icone Criaturas"
+          className="  h-8 md:h-12 hover:scale-110 transition-transform"
+        ></img>
+        <img
+          src={iconInimigos}
+          alt="Icone Inimigos"
+          className=" h-8 md:h-12 hover:scale-110 transition-transform"
+        ></img>
+        <img
+          src={iconMateriais}
+          alt="Icone Materiais"
+          className="  h-8 md:h-12 hover:scale-110 transition-transform"
+        ></img>
+        <img
+          src={iconTesouros}
+          alt="Icone Tesouros"
+          className=" h-8 md:h-12 hover:scale-110 transition-transform"
+        ></img>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-auto x-w-screen-7xl mx-auto gap-4 p-4 mt-14 ">
         {category.length &&
           category.map((item) => {
             return <Card item={item} />;
