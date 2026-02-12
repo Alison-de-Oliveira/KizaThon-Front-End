@@ -1,5 +1,23 @@
-function Card() {
-  return <div className="grid grid-cols-4 gap-4"></div>;
+{/* 
+<img src="" alt="" />
+
+function img({ src, alt}){}
+
+---
+
+const obj = { value: 1}
+Card(obj)
+
+---
+
+<Card value="Teste" />
+
+ */}
+
+
+function Card({ value }) {
+	return <h1>{value}</h1>
 }
+
 
 export default Card;
