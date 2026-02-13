@@ -1,6 +1,9 @@
 function Card(props) {
   return (
-    <div className="bg-[url(./Components/img/background-card.png)] w-full border-2 relative items-center justify-items-center border-white border-default rounded-sm shadow-xs">
+    <div
+      key={props.item.id}
+      className="bg-[url(./Components/img/background-card.png)] w-full border-2 relative items-center justify-items-center border-white border-default rounded-sm shadow-xs"
+    >
       <h5 className="mt-6 mb-2 text-3xl text-white text-center zelda-text tracking-tight text-heading">
         {props.item.name}
       </h5>
