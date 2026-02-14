@@ -9,6 +9,7 @@ import NavBar from "./Components/NavBar";
 import Home from "./Pages/Home";
 import Category from "./Pages/Category";
 import CategoryFilter from "./Pages/CategoryFilter";
+import FilterButtons from "./Components/FilterButtons";
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/category" element={<Category />} />
-        <Route path="/category/:filter" element={<CategoryFilter />} />
+        <Route path="/category" element={<FilterButtons />}>
+          <Route index element={<Category />} />
+          <Route path=":filter" element={<CategoryFilter />} />
+        </Route>
       </Routes>
     </Router>
   );
