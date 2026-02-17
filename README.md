@@ -7,10 +7,12 @@
 <p>A API utilizada foi a <a href="https://gadhagod.github.io/Hyrule-Compendium-API/#/">Hyrule Compendium API</a></p>
 
 <h2>Tecnologias utilizadas: </h2>
-<img src="https://img.shields.io/badge/react-19.2.0-blue?logo=react"/>
-<img src="https://img.shields.io/badge/react_router-7.13.0-white?logo=react-router"/>
-<img src="https://img.shields.io/badge/tailwind_css-4.1.18-white?logo=tailwindcss"/>
-<img src="https://img.shields.io/badge/vite-7.2.4-yellow?logo=vite"/>
+<div style="display: inline">
+  <img src="https://img.shields.io/badge/react-19.2.0-blue?logo=react"/>
+  <img src="https://img.shields.io/badge/react_router-7.13.0-white?logo=react-router"/>
+  <img src="https://img.shields.io/badge/tailwind_css-4.1.18-white?logo=tailwindcss"/>
+  <img src="https://img.shields.io/badge/vite-7.2.4-yellow?logo=vite"/>
+</div>
 
 <h2>Página Home</h2>
 <img src="src/Components/img/print_home.png"></img>
@@ -37,11 +39,11 @@ npm install
 npm run dev
 ```
 
-<h1>Colaboradores</h1>
+<h1>Contribuidores</h1>
 <table>
   <tr>
       <td align="center"><a  href="https://github.com/Alison-de-Oliveira"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/211349629?s=64&v=4" width="64px;" alt="not load"/><br /><sub><b>Alison de Oliveira</b></sub></a></td>
-      <td align="center"><a  href="hhttps://github.com/PabloK-DEV"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/106302151?s=64&v=4" width="64px;" alt="not load"/><br /><sub><b>PabloK-Dev</b></sub></a></td>
+      <td align="center"><a  href="https://github.com/PabloK-DEV"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/106302151?s=64&v=4" width="64px;" alt="not load"/><br /><sub><b>PabloK-Dev</b></sub></a></td>
       <td align="center"><a  href="https://github.com/AlanSCorreia"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/130939099?s=64&v=4" width="64px;" alt="not load"/><br /><sub><b>AlanSCorreia</b></sub></a></td>
       <td align="center"><a  href="https://github.com/JosueFS"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/45906601?s=64&v=4" width="64px;" alt="not load"/><br /><sub><b>Josué FS</b></sub></a></td>
 
