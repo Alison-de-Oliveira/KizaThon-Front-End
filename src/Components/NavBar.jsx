@@ -18,9 +18,6 @@ function NavBar() {
             {" "}
             <Link to="/category">Category</Link>
           </li>
-          <li className="mr-6 zelda-text text-3xl text-[#E2DED3] hover:text-amber-400">
-            Teste
-          </li>
         </ul>
       </nav>
     </div>
