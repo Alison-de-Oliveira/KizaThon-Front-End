@@ -10,14 +10,13 @@ export default function useFilter() {
   function setUrl(parametro) {
     let url = "";
     if (!parametro) {
-      url = "https://botw-compendium.herokuapp.com/api/v3/compendium/all";
+      url = "https://guiatloz.onrender.com/";
     } else {
-      url = `https://botw-compendium.herokuapp.com/api/v3/compendium/category/${parametro}`;
+      url = `https://guiatloz.onrender.com/category/${parametro}`;
     }
 
     return url;
   }
-
 
   const getData = async () => {
     setLoading(true);
